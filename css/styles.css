@@ -48,8 +48,6 @@ img {
     outline: 2px solid red;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
     width: 1200px;
 }
 
@@ -62,34 +60,24 @@ img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
     outline: 2px solid red;
     padding-right: 15px;
     padding-left: 15px;
     width: 1200px;
 }
 
+/* nav */
+
 .header-nav {
     display: flex;
-    gap: 50px;
-
+    margin: auto;
 }
 
-.header-list {
-    display: flex;
-    gap: 50px;
-    margin-left: 331px;
-}
-
-/* .header-link {} */
 
 .header-logo {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: 0;
-    margin-right: 40px;
-    width: 145px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
     font-family: var(--secodary-font);
     font-weight: 700;
     font-size: 26px;
@@ -107,19 +95,10 @@ img {
     color: var(--title-text-color)
 }
 
-.header-portfolio {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    color: var(--accent-color)
+.header-link {
+    display: flex;
+    gap: 50px;
 }
-
-/* nav */
 
 .header-studio {
     display: block;
@@ -133,12 +112,22 @@ img {
     color: var(--accent-color)
 }
 
+.header-portfolio {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
 
 .header-contact {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin: 0;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -147,11 +136,17 @@ img {
     color: var(--title-text-color)
 }
 
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+
+
 .header-mail {
     display: block;
     padding-top: 32px;
-    padding-bottom: 32px;
-    margin: 0;
+    margin-left: 90px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -192,6 +187,8 @@ img {
     background-color: var(--dark-bg-olor);
     text-align: center;
     margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 
@@ -234,14 +231,8 @@ img {
 /* About */
 
 .about-section {
-    display: flex;
-    gap: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    outline: 2px solid red;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 
@@ -265,9 +256,16 @@ img {
 
 .about-title {
     width: 270px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42.36);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color)
 }
 
 .about-text {
+    text-align: start;
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -279,7 +277,7 @@ img {
 }
 
 .about-item {
-    display: flex;
+    text-align: start;
     margin-top: 0px;
     font-size: 14px;
     line-height: calc(24/14);
@@ -287,10 +285,14 @@ img {
     color: var(--primary-text-color);
 }
 
+.about-bottom {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .about-title {
     margin-left: auto;
     margin-right: auto;
-    display: block;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -309,6 +311,8 @@ img {
 
 .section {
     background: #E5E5E5;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -353,6 +357,11 @@ img {
 }
 
 /* footer */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .footer-container {
     margin-left: auto;
     margin-right: auto;
@@ -360,8 +369,6 @@ img {
     outline: 2px solid red;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
     width: 1200px;
     background: var(--dark-bg-olor);
 }
@@ -388,6 +395,8 @@ img {
 }
 
 .footer-link {
+    display: flex;
+    flex-direction: column;
     gap: 9px;
     margin-top: 0;
 }
