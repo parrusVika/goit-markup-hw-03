@@ -54,6 +54,7 @@ img {
 /* Header*/
 .header {
     background: var(--light-bg-cl);
+    border-bottom: 1px solid#ECECEC;
 }
 
 .header-container {
@@ -124,7 +125,7 @@ img {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: var(--accent-color)
+    color: var(--title-text-color)
 }
 
 .header-contact {
@@ -149,7 +150,7 @@ img {
 .header-mail {
     display: block;
     padding-top: 32px;
-    margin-left: 90px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -187,8 +188,8 @@ img {
 
 /* hero */
 .hero {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: var(--dark-bg-olor);
 
@@ -200,6 +201,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    text-transform: uppercase;
     font-family: inherit;
     font-weight: 900;
     font-size: 44px;
@@ -261,7 +263,6 @@ img {
     font-size: 36px;
     line-height: calc(42.36);
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--title-text-color)
 }
 
@@ -288,7 +289,6 @@ img {
 }
 
 .about-bottom {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -312,7 +312,7 @@ img {
 /* Teams*/
 
 .section {
-    background: #E5E5E5;
+    background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -362,6 +362,7 @@ img {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    background: var(--dark-bg-olor);
 }
 
 .footer-container {
@@ -372,7 +373,6 @@ img {
     padding-right: 15px;
     padding-left: 15px;
     width: 1200px;
-    background: var(--dark-bg-olor);
 }
 
 .footer-logo {
