@@ -69,8 +69,8 @@ img {
 /* nav */
 
 .header-nav {
+    align-items: center;
     display: flex;
-    margin: auto;
 }
 
 
@@ -97,7 +97,10 @@ img {
 
 .header-link {
     display: flex;
-    gap: 50px;
+}
+
+.header-item {
+    margin-right: 50px;
 }
 
 .header-studio {
@@ -138,7 +141,7 @@ img {
 
 .header-list {
     display: flex;
-    gap: 50px;
+    margin-left: auto;
 }
 
 
@@ -279,6 +282,7 @@ img {
 .about-item {
     text-align: start;
     margin-top: 0px;
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
@@ -290,7 +294,7 @@ img {
     padding-bottom: 94px;
 }
 
-.about-title {
+.about-content {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -319,10 +323,10 @@ img {
     display: block;
     margin-top: 0;
     margin-bottom: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color)
 }
