@@ -100,7 +100,7 @@ img {
     display: flex;
 }
 
-.header-item {
+.header-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -521,6 +521,11 @@ img {
     outline-style: none;
 }
 
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .portfolio-card {
     display: flex;
     flex-wrap: wrap;
@@ -530,4 +535,9 @@ img {
 
 .portfolio-text {
     padding: 20px 24px;
+    border-right: solid #EEEEEE 1px;
+    border-bottom: solid #EEEEEE 1px;
+    border-left: solid #EEEEEE 1px;
+
+
 }
